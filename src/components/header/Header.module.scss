@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    height: 100px;
+    margin: 1rem;
+  }
+
+  &__menu {
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+
+      &__item {
+        margin: 1rem;
+      }
+    }
+  }
+}
