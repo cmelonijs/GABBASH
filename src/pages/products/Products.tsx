@@ -3,7 +3,7 @@
 function ComingNext() {
   return (
     <div>
-      <h2>GABBASH</h2>
+      <h2>GABBASH creations</h2>
     </div>
   );
 }
