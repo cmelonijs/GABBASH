@@ -3,7 +3,7 @@
 function Contacts() {
   return (
     <div>
-      <h2>GABBASH INFORMALE CONTATTI</h2>
+      <h2>GABBASH CONTATTI</h2>
     </div>
   );
 }

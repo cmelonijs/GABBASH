@@ -3,7 +3,7 @@
 function AboutUs() {
   return (
     <div>
-      <h2>GABBASH INFORMALE CHI SIAMO</h2>
+      <h2>GABBASH About</h2>
     </div>
   );
 }

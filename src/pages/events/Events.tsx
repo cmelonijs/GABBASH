@@ -3,7 +3,7 @@
 function Events() {
   return (
     <div>
-      <h2>GABBASH INFORMALE EVENTI</h2>
+      <h2>GABBASH products</h2>
     </div>
   );
 }
