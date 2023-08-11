@@ -6,11 +6,8 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.header__logo}>
         <Link to="/">
-          <div className={styles.header__logo}>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRABnIFBV_3qw40zx27EgpkfaFrq_1R5ANJji4DwfAVezcTPiKEQ7tX6OE5Pip8gQ78AZ8&usqp=CAU"
-              alt="Clip"
-            />
+          <div className={styles["header__menu-list__item"]}>
+            LOGO
           </div>
         </Link>
       </div>
