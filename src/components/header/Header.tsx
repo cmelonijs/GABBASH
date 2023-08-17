@@ -24,7 +24,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link className={styles["header__menu-list__item"]} to="/products">
+            <Link className={styles["header__menu-list__item"]} to="/creations">
               Creations
             </Link>
           </li>
