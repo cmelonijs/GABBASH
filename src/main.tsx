@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutUs from "./pages/about-us/AboutUs.tsx";
 import Layout from "./components/layout/Layout.tsx";
 import Contacts from "./pages/contacts/Contacts.tsx";
-import Creations from "./pages/creations/creations.tsx";
+import Creations from "./pages/creations/Creations.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
