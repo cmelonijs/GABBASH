@@ -6,7 +6,7 @@ function App() {
   return (
     <div className={styles.container}>
       <div className={styles.headings}>
-        <h1>GABBASH WEBSITE</h1>
+        <h1>VAFFANCULO WEBSITE</h1>
         <p>Lorem ipsum dolor sit amet <span>consectetur</span> adipisicing elit. Libero culpa <span>reprehenderit</span> aut itaque <span>temporibus</span> magni corrupti optio.</p>
         <div className={styles.buttons}>
         <Link to="/creations"><Button variant="primary" text="Creations" /></Link>
