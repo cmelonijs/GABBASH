@@ -17,5 +17,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </Layout>
-  </BrowserRouter>
+  </BrowserRouter>,
 );

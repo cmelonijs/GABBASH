@@ -1,36 +1,36 @@
-@import '../../variables.scss';
+@import "../../variables.scss";
 
 .button-primary {
-    font-family: "Tektur", cursive;
-    margin: 0 .3rem;
-    min-width: 15rem;
-    background-color: $white;
-    color: $primary;
-    border: 1px solid $primary;
-    border-radius: 10px;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  font-family: "Tektur", cursive;
+  margin: 0 0.3rem;
+  min-width: 15rem;
+  background-color: $white;
+  color: $primary;
+  border: 1px solid $primary;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 
-    &:hover {
-        background-color: $primary;
-        color: $white;
-    }
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
 }
 
 .button-secondary {
-    font-family: "Tektur", cursive;
-    margin: 0 .3rem;
-    min-width: 15rem;
-    background-color: $primary;
-    color: $white;
-    border: 1px solid $primary;
-    border-radius: 10px;
-    padding: 1rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  font-family: "Tektur", cursive;
+  margin: 0 0.3rem;
+  min-width: 15rem;
+  background-color: $primary;
+  color: $white;
+  border: 1px solid $primary;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }

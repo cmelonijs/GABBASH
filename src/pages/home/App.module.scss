@@ -19,7 +19,7 @@
     font-weight: 700;
     margin-bottom: 1rem;
     letter-spacing: 1rem;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
     &:hover {
       color: $primary;
@@ -32,13 +32,13 @@
     margin-bottom: 2rem;
     width: 50%;
     text-align: right;
-    letter-spacing: .3rem;
+    letter-spacing: 0.3rem;
     line-height: 2rem;
-    
+
     span {
       font-size: 1.5rem;
       color: $primary;
-      transition: all .3s ease-in-out;
+      transition: all 0.3s ease-in-out;
 
       &:hover {
         color: $primary-light;

@@ -6,9 +6,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.header__logo}>
         <Link to="/">
-          <div className={styles["header__menu-list__item"]}>
-            LOGO
-          </div>
+          <div className={styles["header__menu-list__item"]}>LOGO</div>
         </Link>
       </div>
       <div className={styles.header__menu}>
