@@ -1,56 +1,105 @@
-@import "../../variables.scss";
+// @import "../../variables.scss";
+
+// .title {
+//   text-align: center;
+//   margin: 3rem 0;
+//   font-size: 3rem;
+// }
+
+// .list {
+//   width: 90%;
+//   margin: 0 auto;
+//   display: flex;
+//   justify-content: space-around;
+//   flex-wrap: wrap;
+
+//   &-item {
+//     width: 35%;
+//     display: flex;
+//     flex-direction: column;
+//     margin: 5rem 2rem;
+//     transition: all 0.1s ease-in-out;
+//     opacity: 0.6;
+
+//     &:hover {
+//       cursor: pointer;
+//       transform: scale(1.03);
+//       opacity: 1;
+
+//       .list-item__content {
+//         background-color: $primary-dark;
+//       }
+//     }
+
+//     img {
+//       max-width: 100%;
+//       max-height: 100%;
+//     }
+
+//     &__content {
+//       padding: 2rem;
+//       background-color: transparent;
+//       border-radius: 10px;
+//       margin-top: 1rem;
+
+//       h3 {
+//         font-size: 2rem;
+//         margin-bottom: 1rem;
+//       }
+
+//       p {
+//         font-size: 1.3rem;
+//         margin-bottom: 1rem;
+//       }
+//     }
+//   }
+// }
 
 .title {
   text-align: center;
-  margin: 3rem 0;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin: 5rem 0;
 }
 
-.list {
-  width: 90%;
-  margin: 0 auto;
+.container {
+  height: 100vh;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
-  &-item {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    margin: 5rem 2rem;
-    transition: all 0.1s ease-in-out;
-    opacity: 0.6;
+}
 
-    &:hover {
+.category {
+  text-decoration: none;
+  height: 100%;
+  width: 33.34%;
+  opacity: .5;
+  background-image: url("https://gdrtales.files.wordpress.com/2012/02/angelo-di-platino.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  &:hover {
       cursor: pointer;
-      transform: scale(1.03);
       opacity: 1;
 
-      .list-item__content {
-        background-color: $primary-dark;
+      .category-title {
+          display: block;
       }
-    }
+  }
 
-    img {
-      max-width: 100%;
-      max-height: 100%;
-    }
-
-    &__content {
-      padding: 2rem;
-      background-color: transparent;
-      border-radius: 10px;
-      margin-top: 1rem;
-
-      h3 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-      }
-
-      p {
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
-      }
-    }
+  &-title {
+      display: none;
+      text-decoration: none;
+      font-size: 3rem;
+      color: black;
+      padding: 1rem;
+      background-color: #fff;
   }
 }
