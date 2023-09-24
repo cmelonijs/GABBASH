@@ -3,7 +3,7 @@
 function AboutUs() {
   return (
     <div>
-      <h2>GABBASH About</h2>
+      <h2>NFTs</h2>
     </div>
   );
 }

@@ -19,8 +19,8 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link className={styles["header__menu-list__item"]} to="/about">
-              What About Me
+            <Link className={styles["header__menu-list__item"]} to="/nfts">
+              NFTs
             </Link>
           </li>
           <li>
