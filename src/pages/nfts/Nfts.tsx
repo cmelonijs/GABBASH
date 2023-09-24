@@ -1,6 +1,6 @@
 // import styles from "./App.module.scss";
 
-function AboutUs() {
+function Nfts() {
   return (
     <div>
       <h2>NFTs</h2>
@@ -8,4 +8,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default Nfts;
