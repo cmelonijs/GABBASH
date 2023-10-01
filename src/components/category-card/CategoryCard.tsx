@@ -6,10 +6,11 @@ type CategoryCardProps = {
         name: string;
         path: string;
     };
+    cardWidth: string;
 }
 
-const CategoryCard = ({category}: CategoryCardProps) => (
-    <Link className={styles.category} to={category.path}>
+const CategoryCard = ({category, cardWidth}: CategoryCardProps) => (
+    <Link className={styles.category} to={category.path} style={{ width: cardWidth }}>
         <h3 className={styles['category-title']}>{category.name}</h3>
     </Link>
 )

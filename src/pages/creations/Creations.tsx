@@ -29,7 +29,7 @@ function Creations() {
       <button onClick={goBack}>Back</button>	
       <div className={styles.container}>
         {creations.map((creation) => (
-          <CategoryCard key={creation.name} category={creation} />
+          <CategoryCard key={creation.name} category={creation} cardWidth="33%" />
         ))}
       </div>
     </div>

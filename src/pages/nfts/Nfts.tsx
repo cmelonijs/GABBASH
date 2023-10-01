@@ -18,7 +18,7 @@ function Nfts() {
       <h2 className={styles.title}>NFTs</h2>
       <div className={styles.container}>
         {nfts.map((nft) => (
-            <CategoryCard key={nft.name} category={nft} />
+            <CategoryCard key={nft.name} category={nft} cardWidth="48%" />
           ))}
       </div>
     </div>
