@@ -29,7 +29,7 @@ function Creations() {
       </div>
       <div className={styles.container}>
         {creations.map((creation) => (
-          <CategoryCard key={creation.name} category={creation} cardWidth="33%" />
+          <CategoryCard key={creation.name} category={creation} cardWidth="31.5%" />
         ))}
       </div>
     </div>
