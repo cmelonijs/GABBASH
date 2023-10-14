@@ -22,12 +22,16 @@ function Nfts() {
     <div>
       <h2 className={styles.title}>NFTs</h2>
       <div className={styles.back}>
-        <Button variant="secondary" onClick={() => goBack(navigate)} text="Back" />
+        <Button
+          variant="secondary"
+          onClick={() => goBack(navigate)}
+          text="Back"
+        />
       </div>
       <div className={styles.container}>
         {nfts.map((nft) => (
-            <CategoryCard key={nft.name} category={nft} cardWidth="48%" />
-          ))}
+          <CategoryCard key={nft.name} category={nft} cardWidth="48%" />
+        ))}
       </div>
     </div>
   );

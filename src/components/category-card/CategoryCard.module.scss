@@ -1,31 +1,31 @@
 .category {
+  text-decoration: none;
+  height: 100%;
+  opacity: 0.5;
+  background-image: url("https://gdrtales.files.wordpress.com/2012/02/angelo-di-platino.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+
+    .category-title {
+      display: block;
+    }
+  }
+
+  &-title {
+    display: none;
     text-decoration: none;
-    height: 100%;
-    opacity: .5;
-    background-image: url("https://gdrtales.files.wordpress.com/2012/02/angelo-di-platino.jpg");
-    background-size: cover;
-    background-position: center;
-    transition: all .3s ease-in-out;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    &:hover {
-        cursor: pointer;
-        opacity: 1;
-  
-        .category-title {
-            display: block;
-        }
-    }
-  
-    &-title {
-        display: none;
-        text-decoration: none;
-        font-size: 3rem;
-        color: black;
-        padding: 1rem;
-        background-color: #fff;
-    }
+    font-size: 3rem;
+    color: black;
+    padding: 1rem;
+    background-color: #fff;
+  }
 }

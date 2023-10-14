@@ -25,11 +25,19 @@ function Creations() {
     <div>
       <h2 className={styles.title}>Creations</h2>
       <div className={styles.back}>
-        <Button variant="secondary" onClick={() => goBack(navigate)} text="Back" />
+        <Button
+          variant="secondary"
+          onClick={() => goBack(navigate)}
+          text="Back"
+        />
       </div>
       <div className={styles.container}>
         {creations.map((creation) => (
-          <CategoryCard key={creation.name} category={creation} cardWidth="31.5%" />
+          <CategoryCard
+            key={creation.name}
+            category={creation}
+            cardWidth="31.5%"
+          />
         ))}
       </div>
     </div>
