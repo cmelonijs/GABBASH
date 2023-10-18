@@ -1,12 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./CreationsList.module.scss";
-
-type Creation = {
-  id: string;
-  title: string;
-  description: string;
-  image: string;
-};
+import { Creation } from "../../types";
 
 function CreationsList({ data }: { data: Creation[] }) {
   return (
