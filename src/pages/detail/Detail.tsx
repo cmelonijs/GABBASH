@@ -11,15 +11,20 @@ function Detail() {
     <div
       className={styles.detail}
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(${backgroundImage})`,
       }}
     >
-      <h1>
-        {creation?.title}
-      </h1>
-      <p>
-        {creation?.description}
-      </p>
+      <div className={styles['detail-info']}>
+        <h1>
+          {creation?.title}
+        </h1>
+        <p>
+          {creation?.description}
+        </p>
+        <a href="https://www.google.it/?hl=it">
+          Crypto.com
+        </a>
+      </div>
     </div>
   );
 }
