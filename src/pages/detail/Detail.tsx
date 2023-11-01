@@ -14,16 +14,10 @@ function Detail() {
         backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(${backgroundImage})`,
       }}
     >
-      <div className={styles['detail-info']}>
-        <h1>
-          {creation?.title}
-        </h1>
-        <p>
-          {creation?.description}
-        </p>
-        <a href="https://www.google.it/?hl=it">
-          Crypto.com
-        </a>
+      <div className={styles["detail-info"]}>
+        <h1>{creation?.title}</h1>
+        <p>{creation?.description}</p>
+        <a href="https://www.google.it/?hl=it">Crypto.com</a>
       </div>
     </div>
   );
