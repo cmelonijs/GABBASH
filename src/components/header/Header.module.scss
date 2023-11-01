@@ -20,7 +20,6 @@
 
   &__menu {
     display: none;
-    border: 1px solid green;
     @media (min-width: $tablet) {
       display: block;
       &-list {
