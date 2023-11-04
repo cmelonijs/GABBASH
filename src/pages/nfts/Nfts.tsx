@@ -7,11 +7,11 @@ import { useNavigate } from "react-router-dom";
 const nfts = [
   {
     name: "Vectors",
-    path: "/vectors",
+    path: "/nfts/vectors",
   },
   {
     name: "Concepts",
-    path: "/concepts",
+    path: "/nfts/concepts",
   },
 ];
 

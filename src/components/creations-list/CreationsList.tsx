@@ -9,7 +9,7 @@ function CreationsList({ data }: { data: Creation[] }) {
         <Link
           className={styles["list-item"]}
           key={item.id}
-          to={`/concepts/${item.id}`}
+          to={`/nfts/concepts/${item.id}`}
         >
           <img src={item.image} alt="placeholder" />
           <div className={styles["list-item__content"]}>

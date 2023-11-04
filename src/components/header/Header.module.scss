@@ -28,10 +28,10 @@
         align-items: center;
         list-style: none;
 
-        &__item {
+        &__item,
+        &__active {
           font-size: 1.1rem;
           padding: 0.7rem 1rem 0.5rem 1rem;
-          color: $white;
           text-decoration: none;
           margin: 0 0.2rem;
           border: 4px solid transparent;
@@ -41,6 +41,16 @@
           &:hover {
             border: 4px solid $white;
           }
+        }
+
+        &__item {
+          background-color: $primary-dark;
+          color: $white;
+        }
+
+        &__active {
+          background-color: $white;
+          color: $primary-dark;
         }
       }
     }

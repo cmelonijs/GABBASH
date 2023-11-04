@@ -18,10 +18,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/nfts" element={<Nfts />} />
         <Route path="/creations" element={<Creations />} />
         <Route path="/contacts" element={<Contacts />} />
-        <Route path="/vectors" element={<Vectors />} />
-        <Route path="/vectors/:oid" element={<Detail />} />
-        <Route path="/concepts" element={<Concepts />} />
-        <Route path="/concepts/:id" element={<Detail />} />
+        <Route path="/nfts/vectors" element={<Vectors />} />
+        <Route path="/nfts/vectors/:id" element={<Detail />} />
+        <Route path="/nfts/concepts" element={<Concepts />} />
+        <Route path="/nfts/concepts/:id" element={<Detail />} />
       </Routes>
     </Layout>
   </BrowserRouter>,
