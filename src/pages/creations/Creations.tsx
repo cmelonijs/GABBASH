@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import styles from "./Creations.module.scss";
 import CategoryCard from "../../components/category-card/CategoryCard";
 import BackButton from "../../components/back-button/BackButton";
@@ -19,7 +18,6 @@ const creations = [
 ];
 
 function Creations() {
-  const navigate = useNavigate();
   return (
     <div>
       <h2 className={styles.title}>Creations</h2>

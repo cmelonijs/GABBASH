@@ -18,7 +18,7 @@ function Nfts() {
     <div>
       <h2 className={styles.title}>NFTs</h2>
       <div className={styles.back}>
-      <BackButton />
+        <BackButton />
       </div>
       <div className={styles.container}>
         {nfts.map((nft) => (

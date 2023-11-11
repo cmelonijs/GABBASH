@@ -5,8 +5,9 @@ import { Creation } from "../../types";
 function CreationsList({ data }: { data: Creation[] }) {
   const location = useLocation();
 
-  const linkTo = location.pathname.split('/').pop() === 'concepts' ? 'concepts' : 'vectors';
-  
+  const linkTo =
+    location.pathname.split("/").pop() === "concepts" ? "concepts" : "vectors";
+
   return (
     <div className={styles.list}>
       {data.map((item: Creation) => (
