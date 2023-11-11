@@ -1,8 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./Creations.module.scss";
 import CategoryCard from "../../components/category-card/CategoryCard";
-import Button from "../../components/button/Button";
-import { goBack } from "../../helpers";
+import BackButton from "../../components/back-button/BackButton";
 
 const creations = [
   {
@@ -25,11 +24,7 @@ function Creations() {
     <div>
       <h2 className={styles.title}>Creations</h2>
       <div className={styles.back}>
-        <Button
-          variant="secondary"
-          onClick={() => goBack(navigate)}
-          text="Back"
-        />
+        <BackButton />
       </div>
       <div className={styles.container}>
         {creations.map((creation) => (

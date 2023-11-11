@@ -7,7 +7,6 @@ const Header = () => {
   const [activeRoute, setActiveRoute] = useState(location.pathname);
 
   useEffect(() => {
-    // Aggiorna activeRoute quando la posizione cambia
     setActiveRoute(location.pathname);
   }, [location.pathname]);
 
