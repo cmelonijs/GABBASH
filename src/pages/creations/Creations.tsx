@@ -29,7 +29,7 @@ function Creations() {
           <CategoryCard
             key={creation.name}
             category={creation}
-            cardWidth="31.5%"
+            cardWidth="100%"
           />
         ))}
       </div>
