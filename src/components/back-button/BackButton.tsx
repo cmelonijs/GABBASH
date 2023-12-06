@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../button/Button";
+import { IoIosArrowBack } from "react-icons/io";
 
 const BackButton = () => {
   const navigate = useNavigate();
@@ -13,10 +14,12 @@ const BackButton = () => {
 
   return (
     <Button
-      variant="secondary"
+      variant="back"
       onClick={() => navigate(toPreviousPathname)}
-      text="<-"
-    />
+      text=""
+    >
+       <IoIosArrowBack />
+    </Button>
   );
 };
 

@@ -4,10 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 90vh;
 
   &-info {
     display: flex;
@@ -19,20 +16,22 @@
     p,
     a {
       padding: 1rem 2rem;
-      color: $black;
-      background-color: $white;
-      text-decoration: none;
-    }
-
-    h1:hover,
-    p:hover,
-    a:hover {
       color: $white;
-      background-color: $primary;
+      background-color: transparent;
+      text-decoration: none;
+      transition: all .3s ease-in-out;
     }
 
     a {
       border-radius: 10px;
+      margin-top: 2rem;
+      background-color: $primary;
     }
+    a:hover {
+      color: $white;
+      background-color: $primary;
+      transform: scale(1.3);
+    }
+
   }
 }

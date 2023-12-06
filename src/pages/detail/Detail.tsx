@@ -12,9 +12,9 @@ function Detail() {
     <div
       className={styles.detail}
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(${backgroundImage})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
       }}
-    >
+      >
       <BackButton />
       <div className={styles["detail-info"]}>
         <h1>{creation?.title}</h1>

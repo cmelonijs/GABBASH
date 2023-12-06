@@ -6,8 +6,8 @@ import BackButton from "../../components/back-button/BackButton";
 function Vectors() {
   return (
     <div>
-      <h2 className={styles.title}>Vectors</h2>
       <BackButton />
+      <h2 className={styles.title}>Vectors</h2>
       <CreationsList data={data} />
     </div>
   );

@@ -1,11 +1,9 @@
 @import "../../variables.scss";
 
-.button-primary {
+.button-base {
   font-family: "Tektur", cursive;
   margin: 0 0.3rem;
-  min-width: 15rem;
-  background-color: $white;
-  color: $primary;
+ 
   border: 1px solid $primary;
   border-radius: 10px;
   padding: 1rem 2rem;
@@ -13,6 +11,13 @@
   font-weight: 700;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.button-primary {
+  @extend .button-base;
+  min-width: 15rem;
+  background-color: $white;
+  color: $primary;
 
   &:hover {
     background-color: $primary;
@@ -21,16 +26,16 @@
 }
 
 .button-secondary {
-  font-family: "Tektur", cursive;
-  margin: 0 0.3rem;
+  @extend .button-base;
   min-width: 15rem;
   background-color: $primary;
   color: $white;
-  border: 1px solid $primary;
-  border-radius: 10px;
-  padding: 1rem;
-  font-size: 1.2rem;
-  font-weight: 700;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
+}
+
+.button-back {
+  margin: 2rem;
+  @extend .button-base;
+  background-color: $primary;
+  color: $white;
+  padding: 1.2rem 1.2rem .8rem 1.2rem;
 }

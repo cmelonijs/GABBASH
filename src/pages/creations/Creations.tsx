@@ -20,9 +20,9 @@ const creations = [
 function Creations() {
   return (
     <div>
+      <BackButton />
       <h2 className={styles.title}>Creations</h2>
       <div className={styles.back}>
-        <BackButton />
       </div>
       <div className={styles.container}>
         {creations.map((creation) => (

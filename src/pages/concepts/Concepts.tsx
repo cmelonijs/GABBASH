@@ -6,8 +6,8 @@ import BackButton from "../../components/back-button/BackButton";
 function Concepts() {
   return (
     <div>
-      <h2 className={styles.title}>Concepts</h2>
       <BackButton />
+      <h2 className={styles.title}>Concepts</h2>
       <CreationsList data={data} />
     </div>
   );
