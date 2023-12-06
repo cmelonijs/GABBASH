@@ -2,8 +2,11 @@
 
 .title {
   text-align: center;
+  letter-spacing: 1rem;
   font-size: 1.8rem;
-  margin: 0 0 5rem 0;
+  margin: 0 auto 5rem auto;
+  width: 5rem;
+  border-top: 6px solid $primary;
 }
 
 .back {
