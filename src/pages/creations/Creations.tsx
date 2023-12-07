@@ -1,6 +1,7 @@
 import styles from "./Creations.module.scss";
 import CategoryCard from "../../components/category-card/CategoryCard";
 import BackButton from "../../components/back-button/BackButton";
+import { useEffect } from "react";
 
 const creations = [
   {
@@ -18,6 +19,9 @@ const creations = [
 ];
 
 function Creations() {
+  useEffect(() => {
+    window.scrollTo(0 ,0)
+  }, [])
   return (
     <div>
       <BackButton />

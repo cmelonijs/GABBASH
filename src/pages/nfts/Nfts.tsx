@@ -1,6 +1,7 @@
 import styles from "./Nfts.module.scss";
 import CategoryCard from "../../components/category-card/CategoryCard";
 import BackButton from "../../components/back-button/BackButton";
+import { useEffect } from "react";
 
 const nfts = [
   {
@@ -14,6 +15,9 @@ const nfts = [
 ];
 
 function Nfts() {
+  useEffect(() => {
+    window.scrollTo(0 ,0)
+  }, [])
   return (
     <div>
       <BackButton />

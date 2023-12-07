@@ -1,8 +1,12 @@
 import styles from "./App.module.scss";
 import Button from "../../components/button/Button";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0 ,0)
+  }, [])
   return (
     <div className={styles.container}>
       <div className={styles.headings}>
