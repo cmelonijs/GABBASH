@@ -1,6 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
+@font-face {
+  font-family: "CustomFont";  
+  src: local("IMFellEnglishSC"),
+    url("./font/IM_Fell_English_SC/IMFellEnglishSC-Regular.ttf") format("truetype");
+}
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "CustomFont"; 
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -13,7 +17,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  font-family: "Tektur", cursive;
+  font-family: "CustomFont", cursive;
   color: #fff;
   min-width: 320px;
   min-height: 100vh;
